@@ -1,0 +1,14 @@
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/
+# macOS
+.DS_Store
+# Research datasets (never commit; see CLAUDE.md)
+Datasets/
+
+# ML: dataset clone and generated tables (see Scripts/ml/MODEL_REPORT.md)
+Scripts/ml/Minsk2020_ALS_database/
+Scripts/ml/*.csv
+Scripts/ml/__pycache__/

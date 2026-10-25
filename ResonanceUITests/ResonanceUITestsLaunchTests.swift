@@ -2,32 +2,7 @@
 //  ResonanceUITestsLaunchTests.swift
 //  ResonanceUITests
 //
-//  Created by Aarnev Dixit on 10/23/26.
+//  Intentionally empty. Xcode's template launch test relaunched the app once per UI
+//  configuration and, together with parallel simulator clones, used too much memory.
+//  The onboarding check in ResonanceUITests.swift covers launching.
 //
-
-import XCTest
-
-final class ResonanceUITestsLaunchTests: XCTestCase {
-
-    override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
-    }
-
-    override func setUpWithError() throws {
-        continueAfterFailure = false
-    }
-
-    @MainActor
-    func testLaunch() throws {
-        let app = XCUIApplication()
-        app.launch()
-
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
-
-        let attachment = XCTAttachment(screenshot: app.screenshot())
-        attachment.name = "Launch Screen"
-        attachment.lifetime = .keepAlways
-        add(attachment)
-    }
-}

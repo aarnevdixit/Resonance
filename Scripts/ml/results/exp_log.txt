@@ -1,0 +1,24 @@
+base10          LR   a->a        auc=0.641 acc=0.623
+base10          LR   ai->a       auc=0.633 acc=0.607
+base10          LR   ai->ai avg  auc=0.631 acc=0.656
+base10          LDA  a->a        auc=0.706 acc=0.656
+base10          LDA  ai->a       auc=0.687 acc=0.639
+base10          LDA  ai->ai avg  auc=0.700 acc=0.639
+base+mfccmean   LR   a->a        auc=0.625 acc=0.590
+base+mfccmean   LR   ai->a       auc=0.646 acc=0.607
+base+mfccmean   LR   ai->ai avg  auc=0.662 acc=0.656
+base+mfccmean   LDA  a->a        auc=0.645 acc=0.656
+base+mfccmean   LDA  ai->a       auc=0.658 acc=0.656
+base+mfccmean   LDA  ai->ai avg  auc=0.709 acc=0.705
+base+all        LR   a->a        auc=0.595 acc=0.557
+base+all        LR   ai->a       auc=0.608 acc=0.623
+base+all        LR   ai->ai avg  auc=0.660 acc=0.639
+base+all        LDA  a->a        auc=0.632 acc=0.590
+base+all        LDA  ai->a       auc=0.641 acc=0.607
+base+all        LDA  ai->ai avg  auc=0.684 acc=0.623
+mfcc only       LR   a->a        auc=0.582 acc=0.525
+mfcc only       LR   ai->a       auc=0.580 acc=0.525
+mfcc only       LR   ai->ai avg  auc=0.628 acc=0.574
+mfcc only       LDA  a->a        auc=0.574 acc=0.557
+mfcc only       LDA  ai->a       auc=0.605 acc=0.607
+mfcc only       LDA  ai->ai avg  auc=0.662 acc=0.623

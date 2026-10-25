@@ -398,11 +398,16 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Resonance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Resonance;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Resonance uses the front camera to follow your head movement so you can choose Talk board tiles hands-free. Camera images are never saved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Resonance records short voice tasks to measure changes in your speech, and lets you record phrases in your own voice. Recordings stay on this iPhone.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Resonance uses the motion sensor to measure how steadily you can hold the phone.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Resonance transcribes the reading task on this iPhone to measure speaking rate and word clarity.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -426,11 +431,16 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Resonance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Resonance;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Resonance uses the front camera to follow your head movement so you can choose Talk board tiles hands-free. Camera images are never saved.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Resonance records short voice tasks to measure changes in your speech, and lets you record phrases in your own voice. Recordings stay on this iPhone.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Resonance uses the motion sensor to measure how steadily you can hold the phone.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Resonance transcribes the reading task on this iPhone to measure speaking rate and word clarity.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

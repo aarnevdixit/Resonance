@@ -2,17 +2,6 @@
 //  Item.swift
 //  Resonance
 //
-//  Created by Aarnev Dixit on 10/23/26.
+//  Intentionally empty. Xcode's template created an `Item` model that Resonance does not use.
+//  You can delete this file in Xcode (right-click > Delete > Move to Trash) whenever you like.
 //
-
-import Foundation
-import SwiftData
-
-@Model
-final class Item {
-    var timestamp: Date
-    
-    init(timestamp: Date) {
-        self.timestamp = timestamp
-    }
-}

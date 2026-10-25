@@ -1,0 +1,13 @@
+/a/ only   Logistic regression    acc=0.656 sens=0.548 spec=0.758 auc=0.671 auc95%=0.53-0.80
+/a/ only   LDA (shrinkage)        acc=0.672 sens=0.548 spec=0.788 auc=0.709 auc95%=0.58-0.83
+/a/ only   SVM (RBF)              acc=0.656 sens=0.516 spec=0.788 auc=0.671 auc95%=0.53-0.80
+/a/ only   Random forest          acc=0.688 sens=0.677 spec=0.697 auc=0.711 auc95%=0.57-0.83
+/a/ only   Gradient boosting      acc=0.594 sens=0.645 spec=0.545 auc=0.656 auc95%=0.52-0.79
+/a/ only   k-nearest neighbors    acc=0.656 sens=0.452 spec=0.848 auc=0.659 auc95%=0.52-0.80
+/a/ + /i/  Logistic regression    acc=0.641 sens=0.516 spec=0.758 auc=0.690 auc95%=0.55-0.81
+/a/ + /i/  LDA (shrinkage)        acc=0.672 sens=0.581 spec=0.758 auc=0.717 auc95%=0.58-0.83
+/a/ + /i/  SVM (RBF)              acc=0.625 sens=0.581 spec=0.667 auc=0.669 auc95%=0.53-0.79
+/a/ + /i/  Random forest          acc=0.688 sens=0.742 spec=0.636 auc=0.669 auc95%=0.53-0.80
+/a/ + /i/  Gradient boosting      acc=0.641 sens=0.710 spec=0.576 auc=0.689 auc95%=0.55-0.81
+/a/ + /i/  k-nearest neighbors    acc=0.578 sens=0.516 spec=0.636 auc=0.593 auc95%=0.45-0.73
+Age-only AUC (confound check): 0.652
